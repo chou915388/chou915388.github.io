@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+  font-family: Verdana, "·L³n¥¿¶ÂÅé";
+}
+
+.gp {
+  text-align: center;
+  margin: 5rem;
+}
+.gp h3 {
+  font-size: 2rem;
+}
+.gp .code {
+  display: inline;
+  vertical-align: middle;
+  width: 23rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+}
+.gp .search {
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline;
+  border: solid 2px;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  width: 3rem;
+  margin-left: 1rem;
+}
+.gp .search:hover {
+  background-color: rgba(255, 255, 0, 0.8);
+}
+
+.show {
+  word-wrap: break-word;
+  word-break: keep-all;
+  position: relative;
+  text-align: left;
+  padding: 3rem;
+  border: solid 2px;
+  width: 50%;
+  height: 5rem;
+  border-radius: 0.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
