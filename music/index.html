@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<div class="main">
+  <div class="top_bar">
+    <div class="brand_logo">ChuMusic</div>
+    <div class="search_box">
+      <input class="search_text" id="query"/>
+      <div class="search_btn fa fa-search" id="search_go"></div>
+    </div>
+  </div>
+  <div class="main_body">
+    <!--.left_bar
+    .musiclist 
+      .icon_pic.fa.fa-eercast
+      .icon_name 播放清單
+    -->
+    <div class="middle_content">
+      <div class="content_top">
+        <div class="list_cata">歌單</div>
+        <div class="list_title"> </div>
+      </div>
+      <div class="content_list">
+        <div class="music_item_title">
+          <div class="music_title music_item_num">#</div>
+          <div class="music_title music_item_name">歌曲名稱</div>
+          <div class="music_title music_item_duration">時間</div>
+        </div>
+      </div>
+      <div class="ytblock" id="player"></div>
+      <!--.title -->
+    </div>
+  </div>
+</div>
+<div class="float_box">
+  <div class="btn fa fa-play btn_play" id="play"></div>
+  <!--.btn_pause.btn#pause 暫停-->
+  <!--.btn_test.btn 測試-->
+  <div class="btn_testlist btn">清單</div>
+  <div class="time">00:00:00</div>
+  <div class="status"> </div>
+  <div class="title">未載入</div>
+</div>
+<script src="main.js"></script>
+</html>
