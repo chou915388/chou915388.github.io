@@ -70,7 +70,7 @@ $(".search").click(function()
         str = "豬寶寶, 情人節快樂拉!! 沒想到你用這麼快哦!! LOVE YOU~";
         break;
       case "75755":
-        str = "On Going ^_^";
+        str = "On Going ^_^a";
         break;
       case "03660":
         str = "On Going ^_^";
